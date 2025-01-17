@@ -10,6 +10,6 @@
   </padding>
 
   <Label fx:id="welcomeText" text="Welcome" />
-   <Button mnemonicParsing="false" text="Go Next" />
-  <Button onAction="#onHelloButtonClick" text="Hello!" />
+   <Button mnemonicParsing="false" onAction="#onGoNextClick" onMouseClicked="#onGoNextClick" text="Go Next" />
+  <Button onAction="#onGoNextClick" text="Hello!" />
 </VBox>
