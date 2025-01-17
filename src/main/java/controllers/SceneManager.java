@@ -22,7 +22,7 @@ public class SceneManager {
 
     private SceneManager() {};
 
-    public SceneManager getInstance(){
+    public static SceneManager getInstance(){
         if(instance == null){
             instance = new SceneManager();
         }
