@@ -6,6 +6,7 @@ module com.personal.budget {
     requires com.dlsc.formsfx;
     requires org.kordamp.bootstrapfx.core;
     requires java.sql;
+    requires java.desktop;
 
     opens com.personal.budget to javafx.fxml;
     exports com.personal.budget;

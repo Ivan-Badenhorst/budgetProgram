@@ -1,5 +1,6 @@
 package com.personal.budget.gui;
 
+import com.personal.budget.DB.TransactionsDAO;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
