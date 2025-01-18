@@ -9,4 +9,6 @@ module com.personal.budget {
 
     opens com.personal.budget to javafx.fxml;
     exports com.personal.budget;
+    exports com.personal.budget.gui;
+    opens com.personal.budget.gui to javafx.fxml;
 }

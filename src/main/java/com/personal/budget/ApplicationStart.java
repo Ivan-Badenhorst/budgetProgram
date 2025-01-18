@@ -1,5 +1,6 @@
 package com.personal.budget;
 
+import com.personal.budget.gui.SceneManager;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
@@ -18,6 +19,7 @@ public class ApplicationStart extends Application {
         try {
             sceneManager.loadScene("hello", "/com/personal/budget/hello-view.fxml");
             sceneManager.loadScene("second", "/com/personal/budget/second-view.fxml");
+            sceneManager.loadScene("transactions", "/com/personal/budget/transactions-view.fxml");
             sceneManager.showScene("hello");
         }
         catch(Exception e){

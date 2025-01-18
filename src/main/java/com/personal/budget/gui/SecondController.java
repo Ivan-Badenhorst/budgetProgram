@@ -1,4 +1,4 @@
-package com.personal.budget;
+package com.personal.budget.gui;
 
 import javafx.fxml.FXML;
 

@@ -1,4 +1,4 @@
-package com.personal.budget;
+package com.personal.budget.gui;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
@@ -11,5 +11,11 @@ public class HelloController {
     protected void onGoNextClick() {
         SceneManager sceneManager = SceneManager.getInstance();
         sceneManager.showScene("second");
+    }
+
+    @FXML
+    protected void onViewTransactionsClick() {
+        SceneManager sceneManager = SceneManager.getInstance();
+        sceneManager.showScene("transactions");
     }
 }

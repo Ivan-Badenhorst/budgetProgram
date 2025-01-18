@@ -1,4 +1,4 @@
-package DB;
+package com.personal.budget.DB;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;

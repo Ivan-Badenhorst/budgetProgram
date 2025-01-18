@@ -4,7 +4,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.personal.budget.HelloController">
+<VBox alignment="CENTER" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.personal.budget.gui.HelloController">
   <padding>
     <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
   </padding>
@@ -12,4 +12,5 @@
   <Label fx:id="welcomeText" text="Welcome" />
    <Button mnemonicParsing="false" onAction="#onGoNextClick" onMouseClicked="#onGoNextClick" text="Go Next" />
   <Button onAction="#onGoNextClick" text="Hello!" />
+   <Button mnemonicParsing="false" onAction="#onViewTransactionsClick" text="View Transactions" />
 </VBox>

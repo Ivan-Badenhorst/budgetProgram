@@ -3,7 +3,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<VBox xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.personal.budget.SecondController">
+<VBox xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.personal.budget.gui.SecondController">
    <children>
       <Label alignment="TOP_CENTER" text="This is the second scene" />
       <Button mnemonicParsing="false" onAction="#onGoBackClick" text="Go Back" />
