@@ -1,6 +1,5 @@
 package com.personal.budget;
 
-import controllers.SceneManager;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 

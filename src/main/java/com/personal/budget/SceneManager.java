@@ -1,4 +1,4 @@
-package controllers;
+package com.personal.budget;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

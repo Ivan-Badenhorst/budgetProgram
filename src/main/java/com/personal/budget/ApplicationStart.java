@@ -1,6 +1,5 @@
 package com.personal.budget;
 
-import controllers.SceneManager;
 import javafx.application.Application;
 import javafx.stage.Stage;
 
