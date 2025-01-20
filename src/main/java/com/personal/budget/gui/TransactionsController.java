@@ -9,6 +9,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
+import javafx.scene.control.Control;
 import javafx.scene.control.TableView;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.cell.PropertyValueFactory;
@@ -40,6 +41,10 @@ public class TransactionsController {
 
     @FXML
     public void initialize() {
+
+        transactionTable.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
+        transactionTable.setPrefWidth(Control.USE_COMPUTED_SIZE);
+
         idColumn.setCellValueFactory(cellData ->
                 new SimpleIntegerProperty(cellData.getValue().idTransaction()).asObject());
 
