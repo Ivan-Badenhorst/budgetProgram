@@ -74,7 +74,6 @@ public class TransactionsController {
     }
 
     private void loadTransactions() {
-        // Replace 'P.getTransactions()' with the actual method to fetch transactions
 
         //FOR NOW I MAKE IT HERE, BUT I SHOULD HAVE A BETTER WAY OF MANAGING THE DAO!!
         TransactionsDAO tc = new TransactionsDAO();
